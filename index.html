@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Code Quiz</title>
+    <link rel="stylesheet" href="assets/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <h1>Coding Quiz</h1>
+    </header>
+
+    <section class="info-header">
+        <p class="highscoreTracker">View Highscores</p>
+        <p class="endQuiz">End Quiz</p>
+        <p class="scoreTracker">Score: 100</p>
+    </section>
+
+    <section class="content">
+        <div class="main-screen">
+            <h2 class="heading">Coding Quiz</h2>
+            <p class="info">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by 10 seconds!</p>
+            <button class="startQuizBtn">Start Quiz</button>
+        </div>
+
+        <div class="questions-screen">
+            <h2 class="questions">Questions</h2>
+            <button class="answer-button answer1">Question 1</button>
+            <button class="answer-button answer2">Question 2</button>
+            <button class="answer-button answer3">Question 3</button>
+            <button class="answer-button answer4">Question 4</button>
+            <p class="results"></p>
+        </div>
+
+        <div class="highscoreScreen">
+            <div class="row1">
+                <h2 class="highscores-heading">Highscores</h2>
+            </div>
+
+            <div class="container">
+                <ul class="userResult"></ul>
+                <ul class="userScore"></ul>
+            </div>
+
+            <div class="row">
+                <button class="delHighscore">Clear Highscores</button>
+                <button id="back-btn" class="backButton">Back</button>
+            </div>
+        </div>
+
+        <div class="enterUserscore">
+            <div class="row1">
+                <h2 class="highscores-heading">Highscores</h2>
+            </div>
+
+            <div class="row2">
+                <input class="userInitials" type="text">
+                <button class="submitBtn">Submit</button>
+            </div>
+
+            <div class="row3">
+                <button id="back-btn" class="backButton">Back</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/script.js"></script>
+    
+</body>
+</html>
