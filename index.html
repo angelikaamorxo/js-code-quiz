@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Code Quiz</title>
-    <link rel="stylesheet" href="assets/stylesheet.css">
+    <link rel="stylesheet" href="./assets/stylesheet.css">
 </head>
 
 <body>
@@ -18,22 +20,25 @@
         <p class="scoreTracker">Score: 100</p>
     </section>
 
-    <section class="content">
+    <!--Start screen-->
+    <main class="content">
         <div class="main-screen">
             <h2 class="heading">Coding Quiz</h2>
             <p class="info">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by 10 seconds!</p>
             <button class="startQuizBtn">Start Quiz</button>
         </div>
 
+        <!--Questions-->
         <div class="questions-screen">
             <h2 class="questions">Questions</h2>
-            <button class="answer-button answer1">Question 1</button>
-            <button class="answer-button answer2">Question 2</button>
-            <button class="answer-button answer3">Question 3</button>
-            <button class="answer-button answer4">Question 4</button>
+            <button class="answer-button answer1">A</button>
+            <button class="answer-button answer2">B</button>
+            <button class="answer-button answer3">C</button>
+            <button class="answer-button answer4">D</button>
             <p class="results"></p>
         </div>
 
+        <!--Highscore screens-->
         <div class="highscoreScreen">
             <div class="row1">
                 <h2 class="highscores-heading">Highscores</h2>
@@ -44,12 +49,13 @@
                 <ul class="userScore"></ul>
             </div>
 
-            <div class="row">
+            <div class="row3">
                 <button class="delHighscore">Clear Highscores</button>
-                <button id="back-btn" class="backButton">Back</button>
+                <button id="back-btn2" class="backButton">Back</button>
             </div>
         </div>
 
+        <!--User scores-->
         <div class="enterUserscore">
             <div class="row1">
                 <h2 class="highscores-heading">Highscores</h2>
@@ -61,12 +67,12 @@
             </div>
 
             <div class="row3">
-                <button id="back-btn" class="backButton">Back</button>
+                <button id="back-btn1" class="backButton">Back</button>
             </div>
         </div>
-    </section>
+    <main>
 
-    <script src="assets/script.js"></script>
-    
+<script type="javascript" src="./assets/script.js"></script>
+
 </body>
 </html>
