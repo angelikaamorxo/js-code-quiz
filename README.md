@@ -22,8 +22,10 @@ THEN I can save my initials and my score
 The project outcome is to create a website that showcases quiz questions related to Javascript. The user must get the right answer on their quiz or else 10 seconds gets taken off their overall score. The score starts at  100 and decreases or stays the same depending on how long the user takes to answer the question! They can then see a leaderboard at the end of the quiz and submit their initials to claim the top spot!
 
 ## Final Product
+Screenshot of website can be found in assets > images.
 
 ## Code:
 Screenshots of code can  be found in assets > images. 
 
 ## Link to application: 
+https://angelikaamorxo.github.io/js-code-quiz/
